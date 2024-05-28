@@ -42,4 +42,13 @@ int main()
 	seseorang* obyek; 
 	joko a;
 	lia b; 
+
+	obyek = &a; 
+	obyek->pesan(); 
+	obyek->pesan(); 
+
+	// akses method pesan() dari class seseorang 
+	// a.seseorang::pesan (); 
+
+	return 0; 
 }
