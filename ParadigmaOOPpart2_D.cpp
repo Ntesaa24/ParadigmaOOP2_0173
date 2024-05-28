@@ -27,3 +27,12 @@ class lia : public seseorang
 {
 public: 
 };
+
+class lia : public seseorang
+{
+public: 
+	void pesan()
+	{
+
+	}
+};
